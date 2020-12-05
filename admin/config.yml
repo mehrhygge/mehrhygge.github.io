@@ -1,8 +1,10 @@
 # config.yml
 
 backend:
-  name: git-gateway
+  name: github
+  repo: mehrhygge/mehrhygge.github.io
   branch: master # Branch to update (optional; defaults to master)
+  
 media_folder: 'assets/uploads'
 collections:
   - name: 'blog'
