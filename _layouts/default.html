@@ -1,0 +1,92 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159873171-1"></script> -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-159873171-1');
+  </script>
+
+  <meta charset="utf-8">
+  <title>{{ page.title }} </title>
+  <meta name="description" content="{{ page.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/normalize.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="0">
+
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <div class="jumbotron jumbotron-fluid mb-0 pt-3 pb-3 bg-dark">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center">
+        <div class="p-2 profile">
+          <a href="/">
+            <div class="rounded-circle bg-primary p-3">
+              <img src="/assets/img/profile.jpg" width="256px" height="256px" class="rounded-circle"></img>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary" style="z-index: 100;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="container">
+      <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/">&Uuml;ber Hygge</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog">Blog</a>
+          </li>
+<!--
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbar-rezepte" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Rezepte
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbar-rezepte">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+-->
+      </ul>
+    </div>
+    </div>
+  </nav>
+
+  <div class="container pt-5">
+    {{ content }}
+  </div>
+     
+  <script src="/assets/js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="/assets/js/vendor/jquery-3.4.1.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="/assets/js/plugins.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
