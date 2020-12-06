@@ -1,14 +1,12 @@
 # config.yml
 
-site_id: mehrhygge.netlify.com
-
 backend:
   name: github
   repo: mehrhygge/mehrhygge.github.io
-  site_id: mehrhygge.netlify.com
   branch: master # Branch to update (optional; defaults to master)
   
 media_folder: 'assets/uploads'
+
 collections:
   - name: 'blog'
     label: 'Blog'
