@@ -4,7 +4,7 @@ backend:
   name: github
   repo: mehrhygge/mehrhygge.github.io
   branch: master # Branch to update (optional; defaults to master)
-  site_domain: mehrhygge.de
+  site_domain: www.mehrhygge.de
   
 media_folder: 'assets/uploads'
 
