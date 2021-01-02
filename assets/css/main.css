@@ -16,6 +16,9 @@ html {
   font-size: 1em;
   line-height: 1.4;
   scroll-behavior: smooth;
+}
+
+body {
   font-family: 'Josefin Slab', serif !important;
 }
 
